@@ -3,8 +3,7 @@
 **Onboarding for first-year medical students**
 Dr. Joseph Kingston's laboratory · Noorda College of Osteopathic Medicine
 
-We study how AI agents change clinical work — and whether they support or
-quietly erode a physician's ability to oversee them.
+We study how AI agents change clinical work 
 
 **You do not need any programming background.** You need a laptop, three
 accounts, and a willingness to ask questions when something doesn't make sense.
@@ -17,18 +16,12 @@ Everything here is written for someone who has never opened a terminal.
 Three rules. These are not bureaucratic boxes — breaking the first one can end
 a medical career before it starts.
 
-> ### 1. Never use real patient data. Anywhere.
+> ### 1. Never use patient identifiable patient data. Anywhere.
 > Not in code. Not in a screenshot. Not in a Teams message. **Not pasted into
-> Claude, ChatGPT, or any other AI tool.** Not data you de-identified yourself.
-> We build only against *synthetic* patients — realistic fake people.
+> Claude, ChatGPT, or any other AI tool.
+> We build only against *synthetic* patients — realistic fake patient data.
 >
 > ### 2. Nothing we build touches a real patient until it clears IRB review and Noorda IT.
-> Prototypes stay prototypes. Don't install our code on a clinic machine. Don't
-> demo it with a real chart — not even your own.
->
-> ### 3. Finish your CITI research-ethics training before doing human-subjects work.
-> Ask Dr. Kingston which modules this project requires, then send him your
-> completion certificate.
 
 **When you're unsure, ask before you act.** Nobody has ever gotten in trouble
 here for asking a question. People get in trouble for guessing.
@@ -42,59 +35,15 @@ Do the steps in order — each one depends on the last.
 
 | | Step | Time |
 |---|---|---|
-| 1 | [Check your Noorda-COM account](#step-1--your-noorda-com-account) | ~10 min |
-| 2 | [Create a GitHub account](#step-2--github) | ~20 min |
-| 3 | [Install Claude Code](#step-3--claude-code) | ~30 min |
-| 4 | [Run the project on your laptop](#step-4--run-the-project) | ~15 min |
+| 1 | [Create a GitHub account](#step-1--github) | ~20 min |
+| 2 | [Install Claude Code](#step-2--claude-code) | ~30 min |
+| 3 | [Run the project on your laptop](#step-3--run-the-project) | ~15 min |
 
 New to any of these words? The **[Glossary](GLOSSARY.md)** defines every term in
 plain English. It's fine to keep it open in another tab.
 
----
 
-## Step 1 — Your Noorda-COM account
-
-⏱ **~10 minutes**
-
-**Why:** it's how you reach Teams (where the lab talks), your email, and CITI
-training.
-
-### You don't sign up for this one
-
-Your Noorda account is **created for you when you matriculate.** You're not
-registering — you're confirming credentials you already have. If you can get
-into Canvas, you already have it.
-
-### Confirm it works
-
-1. Go to **<https://myapps.microsoft.com/>** — the portal that fronts nearly
-   every Noorda system.
-2. Sign in with your Noorda-COM email and password.
-3. Complete multi-factor authentication if prompted. **Use the Microsoft
-   Authenticator app on your phone rather than text messages** — it's faster and
-   works when you have no signal.
-4. You'll land on a dashboard of app tiles.
-
-### What you need from it for this project
-
-- **Teams** — where all lab discussion happens. Not personal text messages.
-- **Outlook** — your Noorda email. You'll use it in Step 2.
-- **CITI Program** — research ethics training (see Rule 3).
-
-✅ **You're done when:** you can open Teams and you've found the lab channel and
-said hello.
-
-🆘 **If it doesn't work:** email the IT helpdesk at **helpdesk@noordacom.org**
-with your full name, student ID, and what you see when login fails. Library
-resources: **library@noorda.edu**. Main line: **385-378-5201**.
-
-> 💡 The college's [Tech Ready Guide](https://noordacom.libguides.com/techreadyguide)
-> documents every system Noorda provides. Worth ten minutes even if you think
-> you know it all.
-
----
-
-## Step 2 — GitHub
+## Step 1 — GitHub
 
 ⏱ **~20 minutes**
 
@@ -146,7 +95,7 @@ your username is posted in Teams.
 
 ---
 
-## Step 3 — Claude Code
+## Step 2 — Claude Code
 
 ⏱ **~30 minutes**
 
@@ -225,13 +174,11 @@ next thirty minutes you can spend.
 - **Read what it writes.** You are responsible for code submitted under your
   name. *"Claude wrote it"* is not a defense in a code review — and it would not
   be a defense in a clinical setting either.
-- **Notice yourself using it.** Our research question is whether AI tools erode
-  the human oversight they depend on. The moment you catch yourself approving
-  output you didn't really read, that's **data**. Bring it to lab meeting.
+- **Notice yourself using it.** Are you using it responsibly and giving it the appropriate supervision?
 
 ---
 
-## Step 4 — Run the project
+## Step 3 — Run the project
 
 ⏱ **~15 minutes**
 
@@ -285,7 +232,6 @@ design constraints are the actual intellectual content of this project.
 
 - [ ] Signed in at <https://myapps.microsoft.com/>, MFA working
 - [ ] Found the lab channel in Teams and introduced myself
-- [ ] Started CITI training (asked Dr. Kingston which modules)
 - [ ] GitHub account created with a professional username
 - [ ] GitHub 2FA on, **recovery codes saved somewhere safe**
 - [ ] GitHub username posted in Teams
@@ -325,7 +271,7 @@ You are that group.
 
 Your perspective on this isn't a limitation to work around. It's the most
 interesting vantage point in the lab, and it's one the literature is currently
-missing. **Say what you notice.**
+missing. 
 
 ---
 
